@@ -29,7 +29,7 @@ void runTestLesson1Task1() {
 
     expect(
       materialApp.theme!.textTheme.bodyText1!.fontFamily,
-      equals("OpenSans_500"),
+      equals("OpenSans_regular"),
       reason: "Text theme should be equals to GoogleFonts.openSansTextTheme()",
     );
 
